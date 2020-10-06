@@ -1,5 +1,5 @@
 #!/bin/bash
-instance_type=t2.micro
+instance_type=t1.micro
 if [ $instance_type != "t2.micro" ]
 then
 	echo "please use only t2.micro"
